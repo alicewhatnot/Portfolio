@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alice Gillbanks</title>
+<meta name="description" content="Alice Gillbanks — Maths & Computer Science at St Andrews. Career and project timeline.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="identity">
+    <h1 id="profile-name">Alice Gillbanks</h1>
+    <p class="role" id="profile-subheading">Maths &amp; Computer Science · University of St Andrews</p>
+    <div class="meta-lines">
+      <span><span class="label">Currently reading:</span> <span id="profile-reading">—</span></span>
+      <span><span class="label">Currently interested in:</span> <span id="profile-interest">—</span></span>
+    </div>
+  </div>
+  <nav class="social-links" aria-label="Social links">
+    <a id="link-github" href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.57.1.78-.25.78-.55 0-.27-.01-1.15-.02-2.09-3.2.7-3.88-1.35-3.88-1.35-.52-1.33-1.28-1.68-1.28-1.68-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.34.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.43-2.7 5.4-5.27 5.69.42.36.78 1.07.78 2.15 0 1.56-.01 2.81-.01 3.19 0 .3.2.66.79.55A11.5 11.5 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+    </a>
+    <a id="link-instagram" href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.3"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg>
+    </a>
+  </nav>
+</header>
+
+<div class="filter-bar" role="group" aria-label="Filter timeline">
+  <button class="filter-pill" data-filter="all" aria-pressed="true">all</button>
+  <button class="filter-pill" data-filter="career" aria-pressed="false">career</button>
+  <button class="filter-pill" data-filter="project" aria-pressed="false">projects</button>
+</div>
+
+<main>
+  <ol class="timeline" id="timeline" aria-label="Career and project timeline"></ol>
+  <p class="timeline-end">now</p>
+</main>
+
+<footer class="site-footer">
+  <span>© <span id="year"></span> Alice Gillbanks — built with a plain number line in mind.</span>
+  <a class="footer-signin" href="admin.html">Sign in to edit</a>
+</footer>
+
+<dialog id="entry-dialog" aria-labelledby="dialog-title">
+  <div class="dialog-inner">
+    <button class="dialog-close" id="dialog-close" aria-label="Close">✕</button>
+    <span class="dialog-tag" id="dialog-tag"></span>
+    <span class="dialog-date" id="dialog-date"></span>
+    <h2 id="dialog-title"></h2>
+    <p class="description" id="dialog-description"></p>
+    <div class="dialog-tags" id="dialog-tags"></div>
+    <a class="dialog-link" id="dialog-link" href="#" target="_blank" rel="noopener" hidden>View more →</a>
+  </div>
+</dialog>
+
+<script src="js/app.js"></script>
+</body>
+</html>

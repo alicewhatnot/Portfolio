@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edit — Alice Gillbanks</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body class="admin-body">
+
+<header class="site-header">
+  <div class="identity">
+    <h1 style="font-size:1.6rem;">Edit site content</h1>
+    <p class="role">Changes are committed straight to this repository's <code>data.json</code>.</p>
+  </div>
+  <a href="index.html" class="footer-signin">← back to site</a>
+</header>
+
+<main class="admin-main">
+
+  <section id="signin-panel" class="panel">
+    <h2>Sign in</h2>
+    <p class="hint">
+      GitHub Pages has no server, so there's no real username/password login. This uses a
+      <strong>fine-grained GitHub personal access token</strong> scoped to just this one repository instead.
+      It's held in <code>sessionStorage</code> only — never saved to disk, never sent anywhere except
+      <code>api.github.com</code> — and disappears when you close the tab. Read
+      <a href="README.md" target="_blank">README.md</a> for how to create one and for the honest trade-offs
+      of this approach versus a proper OAuth-based CMS.
+    </p>
+    <label class="field">
+      <span>Repository <span class="muted">(owner/repo)</span></span>
+      <input id="repo-input" type="text" placeholder="your-username/your-username.github.io" autocomplete="off">
+    </label>
+    <label class="field">
+      <span>Branch</span>
+      <input id="branch-input" type="text" placeholder="main" value="main" autocomplete="off">
+    </label>
+    <label class="field">
+      <span>Personal access token</span>
+      <input id="token-input" type="password" placeholder="github_pat_..." autocomplete="off">
+    </label>
+    <button id="connect-btn" class="btn-primary">Connect</button>
+    <p id="signin-status" class="status" role="status"></p>
+  </section>
+
+  <section id="editor-panel" class="panel" hidden>
+    <div class="editor-header">
+      <h2>Profile</h2>
+      <button id="signout-btn" class="btn-ghost">Sign out</button>
+    </div>
+
+    <div class="grid-2">
+      <label class="field"><span>Name</span><input id="f-name" type="text"></label>
+      <label class="field"><span>Subheading</span><input id="f-subheading" type="text"></label>
+      <label class="field"><span>Currently reading</span><input id="f-reading" type="text"></label>
+      <label class="field"><span>Currently interested in</span><input id="f-interest" type="text"></label>
+      <label class="field"><span>GitHub URL</span><input id="f-github" type="text"></label>
+      <label class="field"><span>Instagram URL</span><input id="f-instagram" type="text"></label>
+    </div>
+
+    <div class="editor-header" style="margin-top:32px;">
+      <h2>Timeline entries</h2>
+      <button id="add-entry-btn" class="btn-ghost">+ add entry</button>
+    </div>
+    <div id="entries-list"></div>
+
+    <div class="save-bar">
+      <button id="save-btn" class="btn-primary">Save changes</button>
+      <span id="save-status" class="status" role="status"></span>
+    </div>
+  </section>
+
+</main>
+
+<template id="entry-template">
+  <div class="entry-form" draggable="true">
+    <div class="entry-form-head">
+      <span class="drag-handle" title="Drag to reorder">⠿</span>
+      <select class="e-type">
+        <option value="career">career</option>
+        <option value="project">project</option>
+      </select>
+      <input class="e-title" type="text" placeholder="Title">
+      <button class="btn-ghost remove-entry" type="button">remove</button>
+    </div>
+    <div class="entry-form-grid">
+      <label class="field"><span>Date <span class="muted">(YYYY-MM)</span></span><input class="e-date" type="text" placeholder="2026-06"></label>
+      <label class="field"><span>Date label <span class="muted">(optional override)</span></span><input class="e-datelabel" type="text" placeholder="Summer 2026"></label>
+      <label class="field"><span>Link <span class="muted">(optional)</span></span><input class="e-link" type="text" placeholder="https://"></label>
+      <label class="field"><span>Tags <span class="muted">(comma-separated)</span></span><input class="e-tags" type="text" placeholder="Swift, SwiftUI"></label>
+    </div>
+    <label class="field"><span>Card summary <span class="muted">(one line, shown on the timeline card)</span></span><input class="e-summary" type="text"></label>
+    <label class="field"><span>Full description <span class="muted">(shown in the dialog)</span></span><textarea class="e-description" rows="3"></textarea></label>
+  </div>
+</template>
+
+<script src="js/admin.js"></script>
+</body>
+</html>

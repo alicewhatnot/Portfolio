@@ -1,0 +1,78 @@
+{
+  "profile": {
+    "name": "Alice Gillbanks",
+    "subheading": "Maths & Computer Science \u00b7 University of St Andrews",
+    "reading": "Replace me \u2014 what you're reading right now",
+    "interest": "Replace me \u2014 e.g. graph theory",
+    "github": "https://github.com/your-username",
+    "instagram": "https://instagram.com/your-handle"
+  },
+  "timeline": [
+    {
+      "id": "alevels",
+      "type": "career",
+      "date": "2024-09",
+      "dateLabel": "2024\u20132026",
+      "title": "A-Levels: Maths, Further Maths, Biology, Computer Science",
+      "summary": "AQA specification, four subjects.",
+      "description": "Studying Mathematics, Further Mathematics, Biology and Computer Science at A-Level (AQA). Further Maths and FM Pure have been the heaviest focus of revision.",
+      "tags": ["A-Level", "AQA"],
+      "link": ""
+    },
+    {
+      "id": "sgw",
+      "type": "career",
+      "date": "2023-01",
+      "dateLabel": "2023\u2013present",
+      "title": "Somerset Guitar Works",
+      "summary": "Running the e-commerce side of a second-hand guitar business.",
+      "description": "Closely involved in running Somerset Guitar Works, a second-hand guitar retail business. Built and maintain the Squarespace storefront: custom product listing pages, tag-based filtering, responsive layout fixes and injected JavaScript for cart and navigation behaviour.",
+      "tags": ["Squarespace", "JavaScript", "E-commerce"],
+      "link": ""
+    },
+    {
+      "id": "graphing-animator",
+      "type": "project",
+      "date": "2025-02",
+      "dateLabel": "Feb 2025",
+      "title": "Graph Transformation Animator",
+      "summary": "A pygame tool that animates function transformations.",
+      "description": "A Python + pygame application that animates graph transformations (shifts, stretches, reflections) for arbitrary functions. Debugged a subtle bug where x-axis shifts were being converted to radians even for non-trigonometric functions. Shipped as a web build via pygbag and as a Windows executable via PyInstaller.",
+      "tags": ["Python", "pygame", "pygbag"],
+      "link": ""
+    },
+    {
+      "id": "mp3-sorter",
+      "type": "project",
+      "date": "2025-06",
+      "dateLabel": "Jun 2025",
+      "title": "Spotify Playlist \u2192 MP3 Sorter",
+      "summary": "Script that files MP3s into folders using a Spotify export.",
+      "description": "A Python script that reads a Spotify CSV export and sorts a local MP3 library into playlist-named folders, copying tracks that belong to multiple playlists and moving matched originals into a _sorted_originals folder to keep the source library tidy.",
+      "tags": ["Python", "Automation"],
+      "link": ""
+    },
+    {
+      "id": "factsapp",
+      "type": "project",
+      "date": "2026-07",
+      "dateLabel": "2026 \u2014 ongoing",
+      "title": "FactsApp",
+      "summary": "An iOS app built with SwiftUI and SwiftData.",
+      "description": "An in-progress iOS app built with SwiftUI and SwiftData. Currently working through a schema migration issue: moving relationship properties to optional arrays for iCloud compatibility broke data creation across the app, which is being fixed via a formal SchemaMigrationPlan.",
+      "tags": ["Swift", "SwiftUI", "SwiftData"],
+      "link": ""
+    },
+    {
+      "id": "st-andrews",
+      "type": "career",
+      "date": "2026-09",
+      "dateLabel": "From 2026",
+      "title": "University of St Andrews",
+      "summary": "Starting Maths & Computer Science.",
+      "description": "Starting a degree in Mathematics and Computer Science at the University of St Andrews.",
+      "tags": ["University"],
+      "link": ""
+    }
+  ]
+}
