@@ -9,49 +9,6 @@
   },
   "timeline": [
     {
-      "id": "st-andrews",
-      "type": "career",
-      "title": "University of St Andrews",
-      "date": "2026-09",
-      "dateLabel": "From 2026",
-      "link": "",
-      "tags": [
-        "University"
-      ],
-      "summary": "Starting Maths & Computer Science.",
-      "description": "Starting a degree at the University of St Andrews, taking Mathematics and Computer Science modules."
-    },
-    {
-      "id": "factsapp",
-      "type": "project",
-      "title": "PocketQuotes & PocketFacts",
-      "date": "2026-07",
-      "dateLabel": "July 2026",
-      "link": "",
-      "tags": [
-        "Swift",
-        "SwiftUI",
-        "SwiftData"
-      ],
-      "summary": "Two iOS specialised notes apps built with SwiftUI and SwiftData.",
-      "description": "Two iOS specialised notes apps built with SwiftUI and SwiftData. Used to collect, tag and search through facts and quotes that you have collected over time. I built these as I wanted a purpose built way of storing facts and quotes that I could easily retrieve in conversation."
-    },
-    {
-      "id": "sgw",
-      "type": "career",
-      "title": "Somerset Guitar Works",
-      "date": "2026-05",
-      "dateLabel": "May 2026",
-      "link": "",
-      "tags": [
-        "Squarespace",
-        "JavaScript",
-        "E-commerce"
-      ],
-      "summary": "Developed a website for a second-hand guitar business with E-commerce integration.",
-      "description": "Built a Squarespace storefront with custom animations, product listing pages and tag-based filtering."
-    },
-    {
       "id": "graphing-animator",
       "type": "project",
       "title": "Graph Transformations Animator",
@@ -81,6 +38,36 @@
       "description": "Developed apps to memorise Pi and Primes as part of my self-taught SwiftUI course. They were created alongside a course by HackingWithSwift. Added to the app store once I became 18."
     },
     {
+      "id": "sgw",
+      "type": "career",
+      "title": "Somerset Guitar Works",
+      "date": "2026-05",
+      "dateLabel": "May 2026",
+      "link": "",
+      "tags": [
+        "Squarespace",
+        "JavaScript",
+        "E-commerce"
+      ],
+      "summary": "Developed a website for a second-hand guitar business with E-commerce integration.",
+      "description": "Built a Squarespace storefront with custom animations, product listing pages and tag-based filtering."
+    },
+    {
+      "id": "factsapp",
+      "type": "project",
+      "title": "PocketQuotes & PocketFacts",
+      "date": "2026-07",
+      "dateLabel": "July 2026",
+      "link": "",
+      "tags": [
+        "Swift",
+        "SwiftUI",
+        "SwiftData"
+      ],
+      "summary": "Two iOS specialised notes apps built with SwiftUI and SwiftData.",
+      "description": "Two iOS specialised notes apps built with SwiftUI and SwiftData. Used to collect, tag and search through facts and quotes that you have collected over time. I built these as I wanted a purpose built way of storing facts and quotes that I could easily retrieve in conversation."
+    },
+    {
       "id": "entry-nnf751x",
       "type": "career",
       "title": "Secondary School Graduation & A-Level Results",
@@ -92,6 +79,19 @@
       ],
       "summary": "Finished Secondary School with A-Level qualifications in Maths, CS & Bio",
       "description": "Finished Secondary School with A-Level qualifications in Mathematics, Further Mathematics, Computer Science & Biology. Achieved A*A*A*A with the A in Biology. Also received an A* for my EPQ with full marks."
+    },
+    {
+      "id": "st-andrews",
+      "type": "career",
+      "title": "University of St Andrews",
+      "date": "2026-09",
+      "dateLabel": "From 2026",
+      "link": "",
+      "tags": [
+        "University"
+      ],
+      "summary": "Starting Maths & Computer Science.",
+      "description": "Starting a degree at the University of St Andrews, taking Mathematics and Computer Science modules."
     }
   ]
 }
