@@ -102,23 +102,25 @@
 
     form.querySelector(".remove-entry").addEventListener("click", () => form.remove());
 
-    // drag to reorder
-    form.addEventListener("dragstart", () => form.classList.add("dragging"));
-    form.addEventListener("dragend", () => form.classList.remove("dragging"));
+    // Entries are ordered by date automatically — no manual dragging.
+    // Re-sort once the date field is edited and loses focus.
+    form.querySelector(".e-date").addEventListener("change", sortEntriesList);
 
     entriesList.appendChild(form);
   }
 
-  entriesList.addEventListener("dragover", (e) => {
-    e.preventDefault();
-    const dragging = entriesList.querySelector(".dragging");
-    if (!dragging) return;
-    const after = [...entriesList.querySelectorAll(".entry-form:not(.dragging)")].find(
-      (el) => e.clientY <= el.getBoundingClientRect().top + el.getBoundingClientRect().height / 2
-    );
-    if (after) entriesList.insertBefore(dragging, after);
-    else entriesList.appendChild(dragging);
-  });
+  // Blank dates sort before every dated entry ("" precedes any non-empty
+  // string), so a new card with no date yet lands at the top of the list —
+  // same rule the public timeline uses to order cards.
+  function sortEntriesList() {
+    const forms = [...entriesList.querySelectorAll(".entry-form")];
+    forms.sort((a, b) => {
+      const da = a.querySelector(".e-date").value.trim();
+      const db = b.querySelector(".e-date").value.trim();
+      return da.localeCompare(db);
+    });
+    forms.forEach((f) => entriesList.appendChild(f));
+  }
 
   function readEntriesForm() {
     return [...entriesList.querySelectorAll(".entry-form")].map((form) => ({
@@ -134,7 +136,10 @@
     }));
   }
 
-  document.getElementById("add-entry-btn").addEventListener("click", () => addEntryForm());
+  document.getElementById("add-entry-btn").addEventListener("click", () => {
+    addEntryForm();
+    sortEntriesList();
+  });
 
   document.getElementById("connect-btn").addEventListener("click", async () => {
     const repo = document.getElementById("repo-input").value.trim();
@@ -155,6 +160,7 @@
       fillProfileForm(data.profile || {});
       entriesList.innerHTML = "";
       (data.timeline || []).forEach(addEntryForm);
+      sortEntriesList();
 
       signinPanel.hidden = true;
       editorPanel.hidden = false;

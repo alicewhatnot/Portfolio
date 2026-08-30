@@ -64,6 +64,10 @@
       <h2>Timeline entries</h2>
       <button id="add-entry-btn" class="btn-ghost">+ add entry</button>
     </div>
+    <p class="hint" style="margin-bottom:16px;">
+      Entries reorder themselves by date automatically — the earliest date is at the top,
+      and anything without a date yet sits above all of them until you give it one.
+    </p>
     <div id="entries-list"></div>
 
     <div class="save-bar">
@@ -75,9 +79,8 @@
 </main>
 
 <template id="entry-template">
-  <div class="entry-form" draggable="true">
+  <div class="entry-form">
     <div class="entry-form-head">
-      <span class="drag-handle" title="Drag to reorder">⠿</span>
       <select class="e-type">
         <option value="career">career</option>
         <option value="project">project</option>

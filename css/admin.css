@@ -121,7 +121,6 @@
   margin-bottom: 12px;
 }
 .entry-form-head .e-title { flex: 1; }
-.drag-handle { cursor: grab; color: var(--ink-faint); }
 
 .entry-form-grid {
   display: grid;
