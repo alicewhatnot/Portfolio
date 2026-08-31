@@ -144,5 +144,13 @@
     "image": "/images/blogImage1.jpg",
     "colour": "red",
     "content": "<p>Finally close to complete!! v0.1 is basically done I just need to figure out how to host a web server...</p><br><p>First version of this post was 30-09-24 and was just me screaming about how much of a learning curve this was xx</p><br><p>Anyway, for now, I'm basically done, but in the future, as I get better, I can implement more features and polish it up a bit.</p><br><p>The image used is from some image site Pexels – it was a placeholder picture until now, but it will be forever there as it has been stapled into my brain, so I may as well.</p><br><p>Reading this back, I see now a priority is changing the font before publishing.</p>"
+  },
+  {
+    "Id": 19,
+    "title": "Bork website heres a post",
+    "date": "2025-10-15",
+    "description": "Not dead just busy, Too many projects none of them done",
+    "image": "images/blogImage19.jpeg",
+    "content": "<p>I have not done too many of these posts recently (as in basically none) partly because I'm journaling and a few of those will make it here when I update the website and also because too many things are going on - none of which are complete enough to show off x</p><br><p>My NEA is actually in somewhat of the final stages of development now,  testing and then reflecting on the code so thats a huge weight off my shoulders x</p><br><p>My app for questions is coming along, I have most of the code down and most of the questions made apart from the laborious task of checking them against the specification. My idea is to get an early version up on the app store and hopefully make enough money from it or other things (making a website for someone right now also) to afford a mac with XCode and then sky's the limit (or my ability) </p><br><p>Something funny that I only just noticed this morning is that the password to add posts to this blog is visible in the source code of the website x Nobody checks this thing so its not much of an issue but definitely something to raise when I update this place (when I get round to it that is)</p><br><p>Just the small tasks left now like getting A*s in the easy peasy A Levels then university baby</p>"
   }
 ]
