@@ -156,9 +156,17 @@
   {
     "Id": 20,
     "title": "website still bork another post  (RAM 7)",
-    "date": "2026-08-31",
+    "date": "2025-11-13",
     "description": "hey i think this one’s RAM 7",
     "image": "",
     "content": "<p>Website still broken or at least I think it is - haven’t had time to check recently. </p><br><p>I had an ingenious idea this morning. I took the code I produced for the iOS questions app, gave it all to GPT, told it to remove everything that wasn’t vanilla js html css and bam vibe coded a website. </p><br><p>Took 30 minutes to create then 5x that to bug fix but what do I care.</p><br><p>Over the next few days I’ll be adding bio questions to it as well as / instead of the CS ones as the whole reason for me doing this was there actually isn’t a convenient place for me to get bio questions online.</p><br><p>gotta fix this website (christmas?) along with a conversion to static again maybe preparing to be a broke uni girl</p>"
+  },
+  {
+    "Id": 21,
+    "title": "Missed Me? RAM 8",
+    "date": "2026-08-31",
+    "description": "New Website, New Blog, New Grades, New License, New Age, New Me!",
+    "image": "images/blogImage21.png",
+    "content": "so this is awkward. \n\nThe last two posts were just uploaded now and backdated for mid october and mid november. That makes it around 10 months since my last post. In that time I got a mac to write code for the app store, ditched the questions website entirely (maybe I'll come back), got a driving license, sat my A-Levels, developed 4 apps that you can find on my timeline that I'm in the process of publishing, got A*A*A*A*A (one of the stars is an EPQ), became 18, vibecoded this website and now were here!\n\nOn the website front I do have no excuse vibecoding this as I do know how to make it however there are 6 days until I leave for St Andrews and I'm bored but not bored enough to write HTML by hand. Website updates hopefully coming in the future along with more junk from yours truly about random nonsense.\n\nOh here's your traditional image explainer - 93.8?% partial eclipse day before results day. \n\nIn a while, crocodile."
   }
 ]
