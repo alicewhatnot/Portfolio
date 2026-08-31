@@ -1,0 +1,218 @@
+[
+  {
+    "Id": 25,
+    "title": "busy busy busy bee",
+    "date": "2025-06-10",
+    "description": "there is lots going on and everything is chaos",
+    "image": "/images/blogImage25.JPEG",
+    "colour": "cyan",
+    "content": "<p>Theres been lots going on recently with end of year exams (which went somewhere between fine and awful we'll see when the results are in) and personal statements and coursework but finally I'm back after a month of pretty much just revising the curriculum with little interesting else x </p><p><br></p><p>I've been starting up projects again in the last few days - still mainly working on a graph transformations program for the CS coursework but I've also been starting up work on my new app that'l give random questions on computer science. I'm probably going to use just React, Vite and Capacitor to make it as i'd like it to be cross platform and I can't exactly develop on macOS (as much as i'd like to but maybe when this thing takes off I can afford one xx) </p><p>Just last night was WWDC 2025 and with it came Apple's new bullshit liquid glass - I watched the developer show too and got the idea they really want people to build apps from the same priciples. I'd like to make it look as native to iOS as possible but due to working with React JS it might be hard.</p><p><br></p><p>Now that school is pretty much done with anything important for the summer, it should be quite nice from now to plod along working on my epq, personal statement, CS coursework and this app. There isn't too much interesting to mention now but things are in the works gearing up for next year!</p><p><br></p><p>Oh also I switched to firefox as I was done with playing whack a mole with youtube's ad blocker blocking x</p>"
+  },
+  {
+    "Id": 23,
+    "title": "Commitment issues xxx",
+    "date": "2025-05-15",
+    "description": "i really should expect less of myself",
+    "image": "/images/blogImage23.JPEG",
+    "colour": "red",
+    "content": "<p>okay so perhaps  when I said I was a little less enthused about making games I meant that actually I just don't feel like it anymore. Partly because I ran out of inspiration but also because I have more exciting things I want to do that ill talk about later also I have actually been busy with the academically challenging alevels that are actually academically challenging me :( I very well might come back when im bored - a bit like what happened to my 3d modelling exploits - and its always good to know a little bit of something to start.</p><p><br></p><p>Anyway! My crazy new fancy idea is a new website (despite saying id never do this again) that is one comprehensive place to do most of the stat comparing for universities. As it is the season for me right now to be looking, I'm aware of just how awful it is to try use all the different comparison places when none of them actually show useful information all at once?? UCAS even only shows tariff points - most of which register as N/A because the Unis I'm applying to doesn't use points they use grades. This should be quite a fun project where I can learn how to scrape pages (either using AI or traditional methods, both of which I'd love to learn) as well as some fun database learning! In theory this project might last in my head longer because it serves an actual purpose.</p><p><br></p><p>Also I have been thinking about the website - in theory I'd love to do a major redesign with my knowledge as it is now and create something much more interesting to look at (and remove the need to think of a thumbnail)</p><p><br></p><p>Oh and I got a free 2011 mac that in theory I will use to publish to the iOS app store if I ever wanted to (remnants of my game design phase but still will be useful)</p><p><br></p><p>Image is of a dandelion seed? Taken in a biology lesson (this is why I need to stop the need for thumbnails)</p>"
+  },
+  {
+    "Id": 22,
+    "title": "AI - It's nature and future - Margaret A. Boden",
+    "date": "2025-04-26",
+    "description": "★★★ <br> wow ai so cool maybe",
+    "image": "/images/blogImage22.png",
+    "colour": "orange",
+    "content": "<p>Read this mainly as part of my EPQ resources but as most of the sections were needed I may as well just read the whole thing right? </p><p><br></p><p>It was somewhat worth it - unlike some books on AI the narrative was less interesting but more factual - good for the EPQ I guess. The only part that I really wanted to talk about and was new was the concept of the Singularity - the point where the intelligence of AI meets and then surpasses human intelligence. I won't get into whether this is possible but there's quite a few interesting questions around the topic like whether we should be preventing this happening or whether once the Singularity has occurred, is this going to mean doom for us? I love thinking about these questions when I'm bored and also when studying CS related to the idea and going wow we might be doomed. (I don't actually believe this x)</p><p><br></p><p>I know I promised the end of the gradient thumbnails but sue me</p>"
+  },
+  {
+    "Id": 21,
+    "title": "Fish Biscuits?",
+    "date": "2025-04-21",
+    "description": "Second game is in the works - quite a lot more work than the first xx",
+    "image": "/images/blogImage21.png",
+    "colour": "red",
+    "content": "<p>I have been starting to create sprites and map out the design of my second game (codename Fish Biscuits) and more recently have just jumped into Godot finally to start getting ideas down for how the physics will work. </p><p><br></p><p>If I hadn't already got really into the idea of this game I probably would've pivoted to something way simpler rather than a whole 2D platformer as my second run. I have however managed to temporarily reduce the scope. The first goal that I will be working towards is a single level with a very basic UI and inbuilt physics. This goal I have actually mostly got towards, having a character and a tilemap all created with basic lackluster physics to go with. This version will probably just live on my website and in my game dev directory as a proof of concept of what the game will be and a learning tool for me. After this (if I was sensible over the summer when I have more time) I will then expand the game out to be multiple levels with much more pixel art and a much more polished feel. </p><p><br></p><p>Having worked on it quite a bit over the Easter holiday I am going to take it a little easier to stop me loosing all passion for the project but the first version might be coming within the month. </p><p><br></p><p>In other news I'm also going to be developing another program - animating functions as part of my CS A-Level which I don't know if I've talked about already but now the planning has stepped up a lot (another reason to put the game off my main focus.)</p><p>Oh also I finally got a 1440p monitor for as cheap as possible so I can stop having to make do with the UI taking up most of the screen in every IDE.</p>"
+  },
+  {
+    "Id": 20,
+    "title": "A new project! At last!",
+    "date": "2025-04-04",
+    "description": "I made a bad game following an introduction course",
+    "image": "/images/blogImage20.JPEG",
+    "colour": "red",
+    "content": "<p>I finally got round to doing something! So far in this first week of Easter I have been slowly working away at learning game dev! Inspired a little by the book Tomorrow, and Tomorrow, and Tomorrow and also by all the other reasons I've waffled on about before.</p><p><br></p><p>This game is by no means impressive and is only the product of about 4 hours of reading the introduction then following the tutorial for the first game - so all the assets are not my own. The tutorial is made by the same group that made the engine - Godot. So far its great - with the UI looking familiar enough like blender and with all aspects of it being open source, getting my head around how it works has been relatively seamless and good fun. It really makes me appreciate how valuable open source software and communities can be.</p><p><br></p><p>Also not on purpose the engine has a particular focus on object oriented programming (which is obviously a good idea due to a game being entirely objects). This means though that I can call learning how to make games part of my learning OOP for school studies. </p><p><br></p><p>Hopefully I will keep on going learning how to make games, starting with simpler ones and working my way up to some meaningful releases at some point! This website clearly has quite a good use case now that I can use it to actually very easily showcase the games - as you can see when you follow the link, its just a folder in the website directory.</p><p><br></p><p>Here's the <a href=\"https://mikegillbanks.co.uk/ProjectShowcases/FirstGame/first2d.html\" target=\"_blank\">game</a> - again not my own creative work more of a tutorial but still good fun to show. (It needs arrow keys and enter/mouse so not for mobile)</p><p><br></p>"
+  },
+  {
+    "Id": 19,
+    "title": "Code & Computing with Quantum Cats",
+    "date": "2025-03-22",
+    "description": "Two books at once! Aren't I lazy - haven't even rated them",
+    "image": "/images/blogImage19.jpg",
+    "colour": "orange",
+    "content": "<p>They may be two very different books covering two very different topics and I may have read them at least around a month ago but hey ho. </p><p><br></p><p>Code: The Hidden Language of Computer Hardware and Software by Charles Petzold - this was great fun. It did start off a little boring as a pattern develops in books about computer science all covering the start of computers in a very similar fashion but then went into a topic I have always wanted to know more about - how modern computers use logic and how this translates to the insanely complicated programs we run. As well as this the book had a neat little website containing interactive diagrams on the logic that were oh so fun to play with. I love to read books like this where it does have a niche and it is a topic that I did not know before and did actually want to know about - it gives the vibes of yes that's a gap in the timeline of computers that I have now filled :)</p><p><br></p><p>Computing with Quantum Cats was also good fun but maybe less so. I'm pretty certain this is not the books fault and only the fact that I am not much of a physicist other than gawking at space and don't even take physics. I'm still skeptical whether Quantum Computing will be as big of a technology as everyone is claiming and this book did somewhat agree. It seems to have applications where it would be useless. Yes, the computers of today do also have these problems, but I think there will be many more with Quantum Computing. This does not change the fact that it will be a useful technology to have and the book was a very interesting insight into the subject even if I did not completely understand at the deepest parts of quantum physics.</p><p><br></p><p>Cover image is a chip created by Microsoft that is claimed to get us one step closer to the dream of Quantum Computing.</p>"
+  },
+  {
+    "Id": 18,
+    "title": "RAM 6 Attempt 3.",
+    "date": "2025-03-22",
+    "description": "This is the third time I've uploaded this",
+    "image": "/images/blogImage18.JPEG",
+    "colour": "red",
+    "content": "<p>The first time I deleted this accidentally I did make a copy of the text but this time I did not so you will have to deal with a summary of what I said more and what I'm saying now.</p><p><br></p><p>Basically I solved a lot of the websites problems within like one evening - the problem with bullet points and the fact that I was never quite happy with how the text was formatted.</p><p><br></p><p>Also I said about the fact that I do use AI for this sometimes but only when I'm really annoyed with whatever the code is doing and I cant find anything else anywhere about it. A while later I come back then and make sure I actually learn something instead of just copying it.</p><p><br></p><p>In more recent news I have fixed the annoying little bug where you need to reload the page when you don't have the JSON file stored in cookies. Now the only problems are making it work better on mobile and scratching my itch to change the design.</p><p><br></p><p>The image was and still is a gyroid - I highly recommend searching them up as they are very cool :)</p><p><br></p><p>Byebye</p><p><br></p><p><br></p>"
+  },
+  {
+    "Id": 17,
+    "title": "RAM 5 - More Planning and more complaining",
+    "date": "2025-03-07",
+    "description": "I have made some purely hypothetical progress",
+    "image": "/images/blogImage17.JPEG",
+    "colour": "cyan",
+    "content": "<p>So hello again it's been a little while. Really there is not much going on right now as I've been focused more on reading around CS (not bothering to do anything else) and actually studying for Biology rather than my winging it attitude.</p><br><p>I did however spontaneously buy an Arduino R3 for the sake of some kind of robotics projects in the future so that's sat nicely on my desk now for the next month! Seriously though it is useful without anything else as in my weekend free time I can learn to code for it so I'm proficient when it comes to matter.</p><br><p>The main thing that I have been thinking about recently is the elusive grand project that I wanted to do before Uni. My previous intentions were to do a project for my NEA (Part of CS A-Level) and my own something. Now that I have taken so long thinking about it, really I should be thinking about the NEA so its most likely my grand project will be that. (Not to say that it will be unchanged after submitting the coursework) Also I probably will get up to minor coding endeavours, maybe more focused on the Arduino and robotics to make up for the lack of physics in my academic arsenal.</p><br><p>Anyway with the big project I think I have two options really:</p><br><ul><li>Make an app</li><li>Make a game</li></ul><br><p>Making an app I would love to do but comes with the tricky question of whether I try get my hands on a free / very cheap mac or suffer and make an android app, using my old android even though I use an iPhone.</p><br><p>Making a game however does seem more interesting to me. A lot of this interest has come from inspiration from a book I read recently - <i>Tomorrow, and Tomorrow, and Tomorrow</i> - Gabrielle Zevin (The book not the Shakespeare quote). Anyway this really glorified (and pointed out a few glaring problems with) developing a game during Uni (I'm younger but shush). Since I am an idiot that can't code for the life of me I would end up making this to be a text adventure kind of game - not that I've played many personally but I would love to get round to playing more as part of my research. While all parts of this seem really fun, there is the issue of my dire skills in art. (Maybe I could also learn pixel art at the same time as I would really love to be good at animations and pixel art but my goodness is that a huge investment for a piece of school coursework but maybe the point of this is not in the coursework but in the game with the coursework being a convenient side thing)</p><br><p>I'll shut up now but hey maybe I will make a cool thing and maybe I won't.</p><br><p>Oooh I needed to write the review for a few books too, maybe I'll get round to that this weekend. And the website still needs some tweaks - mainly I'm unhappy with the fact that the first time you load the page it needs reloading and also the formatting of the text in the blog posts could deal with paragraphs nicer.</p><br><p>Oh also I'm doing a Ted Talk on data privacy soon that'll be fun.</p><br><p>Goodbye xoxo</p>"
+  },
+  {
+    "Id": 16,
+    "title": "It broke; I Fixed it again.",
+    "date": "2025-02-19",
+    "description": "This website is an insult to my time management skills",
+    "image": "/images/blogImage16.jpg",
+    "colour": "red",
+    "content": "<p>Oh so I already tried to make this post BUT IT DECIDED TO DELETE THE WHOLE THING BECAUSE THE IMAGE WAS 'TOO BIG' YEAH SURE IT WAS TOO BIG BUT THATS MY ISSUE NOT YOURS IT WAS ONLY 1.2 MB the main issue this time was still uploading not working but now, apparently as long as the image is small enough, the post will be automatically uploaded.</p><br><p>My reasoning for this was really that it would be very fun and cool to be able to upload a post to this website from anywhere and from any device effortlessly.</p><br><p>With the list of things I need to do to mark the project as fully satisfied dwindling I can hopefully move onto thinking about projects that may see the public light.</p><br><p>Bye and I hope I do not have to come back :) The image is cork which is both boring and apparently a large file.</p>"
+  },
+  {
+    "Id": 15,
+    "title": "Planning and complaining (RAM 4)",
+    "date": "2025-02-14",
+    "description": "I have learnt time and time again that a project is never truly over",
+    "image": "/images/blogImage15.png",
+    "colour": "cyan",
+    "content": "<p>The first thing to say here is that this post was actually previously made two days ago. It deleted itself when I realised that the project that I said was finished decided that actually it was not. AWS' node.js server 'just worked' and I should've taken that as a bad omen. This is not really the focus for today though.</p><br><p>Now that I have fixed yet another major bug I am ready to put this blog project on the shelf to be tinkered with occasionally but not my main focus. I also should be getting ideas for new projects before Uni anyway.</p><br><p>I have had this image in my head of being able to develop something that is useful to people and that I could run advertising on to generate some background revenue. While this may of course be a useless ambition I still would really like to create something more people-facing. While I am idealess I love the idea of publishing it and advertising the program (website / app) from social media and things.</p><br><p>In terms of hardware projects that I should also be working on there are a few that I will get started with (once I start saving up for them)</p><br><ul><li>Frequency analyser (like those things on the NCS YouTube videos!)</li><li>Simple robot (basically an RC car)</li><li>More complex robot in some way - like climbing stairs or those ones with two wheels or a dog</li></ul><br><p>The title is RAM 4 because I was meant to use RAM as a fun little pun for all of these general posts but somewhat forgot previously. As for the image I am boring and cannot think of anything interesting to add. (In the future mathematical things may come)</p><br><p>Bye for now! (I'm backing the post up before posting this time)</p>"
+  },
+  {
+    "Id": 14,
+    "title": "Why Machines Learn - Anil Ananthaswamy",
+    "date": "2025-02-02",
+    "description": "★★★★<br>A great book that has been a great help in starting to think about the maths of AI!",
+    "image": "/images/blogImage14.png",
+    "colour": "orange",
+    "content": "<p>I recently got my first Kindle which has let me read a much wider range of things at much less of a long term cost and this was the first book I read with it! While possibly quite the harsh introduction to Kindle reading it was a great book that achieved all I wanted reading it to achieve.</p><br><p>Not only does it cover the mathematical ideas that make up AI but the book also covers how AI progressed. It is fascinating to see how these actually simple mathematical ideas (most are A-Level maths or below) come together to be extremely useful in such a powerful area of computing. Also, it was interesting to see the progress that AI made and the different types of models that were thought to be the best along the way.</p><br><p>While I did say that the maths was simple, the way that it applies to AI does still require some thinking about. I found myself reading the book and then for a few hours after thinking how it works and then finding how elegantly it works. Reading this was technically part of my EPQ but as with most of my EPQ I wanted to understand the topic anyway and the book was a great first look at the mathematics that make up AI and the people involved in it's history.</p><br><p>The image is a test of me seeing how well a gradient works for random things as book covers tend to not lend themselves to thumbnails as is the case here.</p>"
+  },
+  {
+    "Id": 13,
+    "title": "A quick update about the website",
+    "date": "2025-02-01",
+    "description": "So I think for now I'm pretty happy with where we're at",
+    "image": "/images/blogImage13.jpg",
+    "colour": "red",
+    "content": "<p>Today I have spent doing mostly coding (and sadly a little biology) and am pretty happy with the website. Although writing this now I think I might need to dedicate one more coding session to add a little more love to this interface.</p><br><p>I've changed a few things in the main user-facing website though:</p><br><ul><li>Added a back to the top feature</li><li>Added a home arrow which roughly works to indicate but maybe not very well</li><li>General polish to the admin menu</li></ul><br><p>After all of that I'm pretty pleased with where this website is now in both functionality and looks :) I must remember to look into getting it up on the internet again without having to pay for hosting somehow because although I still love the project there is the element of feeling like I am achieving something that came with this being on the internet.</p><br><p>Bye for now!</p>"
+  },
+  {
+    "Id": 12,
+    "title": "Once again I dreamt of an easy future.",
+    "date": "2025-01-26",
+    "description": "Yeah so it turns out everything was much harder because of course it was.",
+    "image": "/images/blogImage12.jpg",
+    "colour": "red",
+    "content": "<p>After the posts I made while I've been going at this project this is the first post. I'm typing this using the interface that I set up and it is actually very useful. What I spent most of today doing was trying to figure out how to allow the thumbnail image to be uploaded from anywhere rather than having to have access to the blog directory. Now that works all that's left is a few tasks from before and a couple more that I have on a post-it in front of me that I can't really be bothered to read (its too dark)</p><br><p>While I will confess that this is probably not very near complete, it is feature complete now so whoo! Progress was a lot slower possibly because everything being harder than you thought is rather crushing and also because I have had a cold for two weeks straight now.</p><br><p>More importantly I can finally get on to more exciting tasks (I wanna venture into hardware) and get my evenings back.</p><br><p>Cover image is a Sydler Pi/4 Polyhedron printed with my 3D printer - google the shape it's cool!</p>"
+  },
+  {
+    "Id": 11,
+    "title": "Progress towards JSON bliss.",
+    "date": "2025-01-15",
+    "description": "Oh it is a wonderful star to be reaching for and it will be all mine",
+    "image": "/images/blogImage11.jpg",
+    "colour": "red",
+    "content": "<p>Oh. My. Gosh.</p><br><p>I did it.</p><br><p>Hopefully I add a screenshot to this post or as the title (adding a picture to a post is a new thing that I need to learn anyway) but I finally made huge progress in trying to turn the website into a glorified JSON file. This post is more for me really as a documentation of what I did because its the sort of process that I am defiantly going to forget xx</p><br><p>So I am running a node.js server on a server.js file. This server is being contacted somehow (going to be honest I used AI here to cheat so that I can come back later and try understand what was going on but I did not feel like that in the moment) and its being contacted using POST which adds to the JSON file any changes that were made. The new post is created on the admin dashboard that looks very ugly atm but its created there and then appended to a JSON list type thing in the local host storage. Now I thought this would be fine but of course that is not automatically saved to the website's directory for security reasons. Here is where the server being contacted comes in - the now appended to JSON file is transferred back to the website's directory where it is saved. Crucially, when adding the data from a form tag in HTML the data is saved using 'posts.unshift' which adds the new article to the top of the JSON file not the bottom for ease of access.</p><br><p>I'm still far from finished and here is the list of things necessary before this works enough: (again mostly for me)</p><br><ul><li>The content of the posts are still individual html files. I've added them to the JSON theoretically but the framework for creating the post pages needs to be added.</li><li>The link needs to be refined to be made somewhat automatically (using the format of Name - Project in 1 word)</li><li>Images need to be much smaller for efficiency reasons - perhaps stored twice, once for the thumbnail in that resolution and once for the banner in that resolution.</li><li>Also for efficiency reasons I should look into the pictures only being loaded one or two rows off the screen.</li><li>The admin dashboard needs to be WAY prettier and maybe add the functionality to edit posts?</li><li>Like I mentioned earlier add easy image adding to blog text.</li><li>Sorting the mess that is the blg folder (the directory where this magic is happening)</li></ul><br><p>This project was getting quite stale with the two nights of solid bug fixing but now that I've figured out the core functionality it might not be much longer until I'm done with this! Maybe I'll even consider paying to host this blog again with how cool the changes I've made are. Bye-bye now until I'm back with working code or something less interesting!</p>"
+  },
+  {
+    "Id": 10,
+    "title": "Haha happy late new year!",
+    "date": "2025-01-13",
+    "description": "I did say that I would be back with a post in the new year and with an updated website and I can promise the first half xx",
+    "image": "/images/blogImage10.jpg",
+    "colour": "cyan",
+    "content": "<p>Maybe there was an awful lot of procrastinating but that did lead to me getting a good amount of other things done in the meantime so it wasn't all wasted time. This is the second evening of properly getting at coding the new update for the website and its looking pretty exciting. Really smart of me - I've switched to using a JSON file to store all of the posts and loading them using JavaScript instead of the all front end that was happening before - ideally (although it isn't working and that's why I gave up and started writing this) all the posts can be written from the website.</p><br><p>Also, in other news, I have taken down the website for what will be a little while as it just started requiring me to pay for it. Normally in the future paying for it should be fine but as it isn't really worth much to anyone else right now taking it down is okay. Since its been taken down I do actually have more of a chance to write random stuff here that I wouldn't with the possibility of people reading it imminently.</p><br><p>(End of transmission) I love getting into the routine of work again after Christmas and that is partially to blame for the waiting before I've started updating this website. I have also been working on developing my useless modeling skills using Fusion 360 to make a cool tray for my A1 Mini 3D printer - the printer has been a blast and I've made all sorts of stupid models like the pi/4 polyhedron and a Klein bottle. It is really fun to make models as its fun to hold mathematics (but I will need a shelf to store them all at this rate)</p><br><p>Obviously this is a way longer post than anything I've uploaded in the past and that is probably to be blamed on the website being taken down. I'm still enthused and love updating it as a constant side project and I'm hoping that this blog project continues getting better and better as I do too.</p><br><p>Happy 2025 xx</p>"
+  },
+  {
+    "Id": 9,
+    "title": "New Computer! (and putting off coding)",
+    "date": "21-12-24",
+    "description": "Built a new computer - its smaller and faster and quieter!",
+    "image": "/images/blogImage9.jpg",
+    "colour": "red",
+    "content": "<p>So it's been a while! A bit busy working on multiple essays and generally working more towards grades than projects in my own free time recently. This is however being written on a new computer that I built last week – it's an ITX case (The Fractal Terra) with a 13th gen i5 CPU and an RTX4060 carried over from my last PC.</p><br><p>While the 13600KF is just over two years old, its performance is in line with the generation newer (around 4% worse) and even performs better than Intel's latest chips that are the product of them focusing on power efficiency. I could've gone AMD but at the price that I got the 13600KF for, it was well worth it (£170).</p><br><p>Being that this computer is so much smaller than my last (40L down to 10), I assumed there would be problems with thermals. However, while I have had to limit the CPU to 180W peak, 160W sustained, that is still far above its rated power draw and is kept virtually silent at 40°C at idle with only a minimal less than 1% performance drop compared to stock under full-core loads.</p><br><p>I am somewhat working on making the website easier to post to but since it seems such a bigger task compared to usual, I'm quite apparently putting it off... I should finish updating the website at least before the start of school again, so I'll be back in another post then in the new year!</p>"
+  },
+  {
+    "Id": 8,
+    "title": "Turing's Cathedral - George Dyson",
+    "date": "14-11-24",
+    "description": "★★★<br>An interesting (but somewhat tedious) insight into the beginnings of computer science",
+    "image": "/images/blogImage8.jpg",
+    "colour": "orange",
+    "content": "<p>This book was read over the end of the half term and this review (it's not really a review) is a little late because of exams and things, but it's given me time to think about this review more. To get past the fact that I gave it 3 stars first, it was quite a boring read to me. Some parts where the author goes into detail about history that I did not find entirely relevant to the general topic felt like they dragged on a bit. However, between these spells, there was a fascinating insight into early computer science. A lot of the early background information I found more interesting possibly because it built on the history present in *Oppenheimer* (the movie) – by Christopher Nolan. *Turing's Cathedral* built on the loose history (what can you expect from a historical drama) to show how key the usecase of calculating the effect of explosions was to the research and building of the computer. It made me think that quite possibly without the atomic race during the war and the continuing race to build a bigger bomb, computers would never have existed. The book opened a whole can of worms in me thinking about this part of the history of computer science – a subject that previously I don't think I would ever have considered I would be remotely interested in.</p><br><p>Contrary to the title (Although Alan Turing was mentioned a lot) the book also focused on the life of John Von Neumann which was fascinating. The author spoke of his interesting questions rather than the usual – how fast does it go? (which is totally what I'd ask). Studying this man really helped the picture of how computer science came to be.</p><br><p>My last remark is how funny it is that even in the early days of computer science, according to the author, the people working on computers were said to be engineers by the mathematics department but the mathematics department didn't want anything to do with them as computing apparently was not mathematics (it totally is). So even though it was kind of boring at the time, I'm glad I read it.</p><br><p>Image from Los Alamos National Laboratory on Facebook.</p>"
+  },
+  {
+    "Id": 7,
+    "title": "Planned December Update & Other things",
+    "date": "06-11-24",
+    "description": "There are a few big improvements I'd love to make that will wait until the December Holidays",
+    "image": "/images/blogImage7.jpg",
+    "colour": "cyan",
+    "content": "<p>Now that the website is actually somewhat reliably running and in a complete state, there is a lot that I have wanted to add since the start without much of an idea on how to start at the time. Some things I wanna add:</p><br><ul><li>An admin login at the bottom where the following can be edited online rather than in the back-end like I am now</li><li>Most importantly adding new posts</li><li>Home button instead of relying on browser based navigation tools</li><li>Change the blog icon</li><li>Make the description on Google better (I thought this was fixed :P)</li><li>Changing the colour scheme (this involves changing colours from a specified colour to a variable)</li><li>Changing anything else like icons, banners, and the bio</li><li>And finally, hopefully making HTTPS work</li></ul><br><p>This will let me get better at JavaScript hopefully, as a lot of this is script-based, not just HTML and CSS.</p><br><p>Other project related things:</p><br><p>Hopefully at Christmas, I'll be able to buy a 3D printer (and a Klein bottle) to be able to build neat lil projects like one I've seen where it's a waveform visualisation (it might not actually be called that), but like the ones you see on YouTube and in video editors.</p><br><p>That's it for now!</p>"
+  },
+  {
+    "Id": 6,
+    "title": "v1.0 release???",
+    "date": "28-10-24",
+    "description": "Wow finally its done (for now) and theres totally no bugs",
+    "image": "/images/blogImage6.jpg",
+    "colour": "red",
+    "content": "<p>Okay, this is the final post for now about this project hopefully. I should be able to release v1.0 now after a lil while of pain xx – A lot of the time waiting was just school and lack of inspiration to continue, but there were a few fixes I've done to be ready for full release:</p><br><ul><li>Added Instagram link</li><li>Added filters to what was just a key</li><li>Fixed issue where key would go over the page on mobile</li><li>Added an icon for the Google tab menu</li><li>Added a description on the Google search page</li></ul><br><p>That final fix I don't know if it has worked yet because I'll have to wait until Google updates their servers or something idk. That and a few other things means there may be a few bug fixes in the coming weeks but this blog is still feature complete now woohoo!</p>"
+  },
+  {
+    "Id": 5,
+    "title": "Server online now woooo",
+    "date": "13-10-24",
+    "description": "So i figured out how to host a web server (kinda) and it took ages but here we are - its mikegillbanks.co.uk but you know that already",
+    "image": "/images/blogImage5.jpg",
+    "colour": "red",
+    "content": "<p>Oh my goodness that was a pain xx</p><br><p>So anyway, I looked into hosting the website on the laptop that is just sitting there in the corner of my room and tried a method I found from a YouTube video. I got so far in until realizing when hosting through WordPress there seems to be no way of just uploading the files with the code you wrote. (It's harder to host your own than make it online???) So with that out the window, I tried simply using a static IP but apparently that isn't available for my home's internet.</p><br><p>The solution I have working now:</p><br><p>I am using Amazon's web server hosting system Lightsail – this and Hostinger seemed to be the two clear options with Hostinger being cheaper but needing an upfront payment for 4 years while Amazon is 5 dollars a month. On Lightsail, I have an Ubuntu instance running Apache2 which just uses a directory copied across from my PC using FileZilla (the key for this being rejected being one of two times I needed to delete the instance and retry). Looking back (as long as it's working) everything I did does seem quite straightforward, so now I might finally be able to focus on pushing updates to the website and streamlining updating pages in my free time instead of looking into the canyon of pain and suffering that is web hosting.</p>"
+  },
+  {
+    "Id": 4,
+    "title": "Hello World - Hannah Fry",
+    "date": "06-10-24",
+    "description": "★★★★<br>Id give this 4.5 stars if there was such thing in ascii",
+    "image": "/images/blogImage4.jpg",
+    "colour": "orange",
+    "content": "<p>Wooo! Good book! I love Hannah Fry so that was going to be obvious. I was probably first introduced to her in my sweet little careless fun maths lessons of year 7, oblivious to the stressful work ahead – we watched Numberphile videos (YouTube) and she must have come up somewhere but I specifically remember her optimal way to cut a cake video (which now and then she still makes food-related maths videos). Now I watch her when she pops up on Matt Parker's channel now and then.</p><br><p>Back to the book – it was great, the chapters gave a wonderful insight into how much relevance algorithms have in our daily lives and how they can actually have quite the impact, good or bad. I especially found the chapter on data brokers interesting due to my rough knowledge of the subject but without knowing the detail. This fascination she has brought to me I am planning on attempting to pass on to an audience through a TEDx talk but I doubt I'll get as interesting as her (interesting at all will be a feat).</p><br><p>As a first read in a series of me reading books adjacent to computer science but focusing on the philosophical and moral aspects of the subject, it was a wonderful start with as fun an introduction as possible and has made me begin to understand more of the philosophy that I was interested in behind the way we interact with technology.</p>"
+  },
+  {
+    "Id": 3,
+    "title": "Neuromancer - William Gibson",
+    "date": "03-10-24",
+    "description": "★★★<br>Thought the descriptions were so cool and awesome but the plot was so hard to follow imo",
+    "image": "/images/blogImage3.jpg",
+    "colour": "orange",
+    "content": "<p>It was such a weird book, like so many things happened. It was like the author was just 'what can I get away with now that this is set in the future so basically anything can happen?' I think that was why the plot felt so random, although it didn't have my full attention sometimes so that might have helped xx.</p><br><p>It was fun though to see what the 'cyberspace' would look like to someone in 1984 as a lot of the futuristic ideas actually seemed pretty close to us now. Also, the fact that it inspired *The Matrix* and also one of my favourite games (*Cyberpunk 2077*) was both clear and fun to see.</p><br><p>Cover image is from one of the covers.</p>"
+  },
+  {
+    "Id": 2,
+    "title": "First random access!!",
+    "date": "02-10-24",
+    "description": "And I said I was nearly finished... Just had the heart attack of my life and I think I will forever backup my code before changing anything severe for the rest of my life x",
+    "image": "/images/blogImage2.jpg",
+    "colour": "cyan",
+    "content": "<p>Maybe the whole random access thing can be the name for this blog diary thing?</p><br><p>Anyway, so last time I was typing something here I tried saying how this was nearly finished (last night) and while that might still be true, the result of tonight was me making a stupid error and thinking that my code had a root flaw causing it to just not work xx I referenced the wrong css file. Because I copied across html files. This has become quite a fixation of mine, so perhaps I might figure a way of hosting this on my domain by tomorrow night?</p><br><p>I'm quite impressed with myself really to be able to get this far in html and css within a week (from 0 to a website) and this place will be updated as I get better hopefully. For now, goodbye!!</p>"
+  },
+  {
+    "Id": 1,
+    "title": "Hello World!",
+    "date": "01-10-24",
+    "description": "Finally close to complete!! v0.1 is basically done I just need to figureout how to host a web server...",
+    "image": "/images/blogImage1.jpg",
+    "colour": "red",
+    "content": "<p>Finally close to complete!! v0.1 is basically done I just need to figure out how to host a web server...</p><br><p>First version of this post was 30-09-24 and was just me screaming about how much of a learning curve this was xx</p><br><p>Anyway, for now, I'm basically done, but in the future, as I get better, I can implement more features and polish it up a bit.</p><br><p>The image used is from some image site Pexels – it was a placeholder picture until now, but it will be forever there as it has been stapled into my brain, so I may as well.</p><br><p>Reading this back, I see now a priority is changing the font before publishing.</p>"
+  }
+]

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — Alice Gillbanks</title>
+<meta name="description" content="Alice Gillbanks — blog posts.">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="identity">
+    <h1>Blog</h1>
+    <p class="role">Notes, projects, and whatever else felt worth writing down.</p>
+  </div>
+  <a class="footer-signin" href="index.html">← back to profile</a>
+</header>
+
+<main>
+  <div class="blog-grid" id="blog-grid" aria-label="Blog posts"></div>
+</main>
+
+<footer class="site-footer">
+  <span>© <span id="year"></span> Alice Gillbanks</span>
+  <a class="footer-signin" href="admin.html">Sign in to edit</a>
+</footer>
+
+<dialog id="entry-dialog" aria-labelledby="dialog-title">
+  <div class="dialog-inner">
+    <button class="dialog-close" id="dialog-close" aria-label="Close">✕</button>
+    <span class="dialog-date" id="dialog-date"></span>
+    <h2 id="dialog-title"></h2>
+    <div class="description" id="dialog-content"></div>
+  </div>
+</dialog>
+
+<script src="js/blog.js"></script>
+</body>
+</html>

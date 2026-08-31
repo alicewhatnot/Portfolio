@@ -37,7 +37,7 @@
 
   function renderTimeline() {
     timelineEl.innerHTML = "";
-    const sorted = [...entries].sort((a, b) => a.date.localeCompare(b.date));
+    const sorted = [...entries].sort((a, b) => b.date.localeCompare(a.date));
 
     sorted.forEach((entry, i) => {
       const li = document.createElement("li");

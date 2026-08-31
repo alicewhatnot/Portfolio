@@ -6,13 +6,14 @@
 <title>Edit — Alice Gillbanks</title>
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/admin.css">
+<link rel="stylesheet" href="css/blog.css">
 </head>
 <body class="admin-body">
 
 <header class="site-header">
   <div class="identity">
     <h1 style="font-size:1.6rem;">Edit site content</h1>
-    <p class="role">Changes are committed straight to this repository's <code>data.json</code>.</p>
+    <p class="role">Changes are committed straight to this repository's <code>data.json</code> and <code>articles.json</code>.</p>
   </div>
   <a href="index.html" class="footer-signin">← back to site</a>
 </header>
@@ -47,32 +48,58 @@
 
   <section id="editor-panel" class="panel" hidden>
     <div class="editor-header">
-      <h2>Profile</h2>
+      <h2>Edit content</h2>
       <button id="signout-btn" class="btn-ghost">Sign out</button>
     </div>
 
-    <div class="grid-2">
-      <label class="field"><span>Name</span><input id="f-name" type="text"></label>
-      <label class="field"><span>Subheading</span><input id="f-subheading" type="text"></label>
-      <label class="field"><span>Currently reading</span><input id="f-reading" type="text"></label>
-      <label class="field"><span>Currently interested in</span><input id="f-interest" type="text"></label>
-      <label class="field"><span>GitHub URL</span><input id="f-github" type="text"></label>
-      <label class="field"><span>Instagram URL</span><input id="f-instagram" type="text"></label>
+    <div class="tab-bar" role="tablist">
+      <button class="tab-btn" id="tab-btn-timeline" role="tab" aria-selected="true">Timeline</button>
+      <button class="tab-btn" id="tab-btn-blog" role="tab" aria-selected="false">Blog posts</button>
     </div>
 
-    <div class="editor-header" style="margin-top:32px;">
-      <h2>Timeline entries</h2>
-      <button id="add-entry-btn" class="btn-ghost">+ add entry</button>
-    </div>
-    <p class="hint" style="margin-bottom:16px;">
-      Entries reorder themselves by date automatically — the earliest date is at the top,
-      and anything without a date yet sits above all of them until you give it one.
-    </p>
-    <div id="entries-list"></div>
+    <div id="tab-timeline">
+      <h2 style="margin-top:0;">Profile</h2>
+      <div class="grid-2">
+        <label class="field"><span>Name</span><input id="f-name" type="text"></label>
+        <label class="field"><span>Subheading</span><input id="f-subheading" type="text"></label>
+        <label class="field"><span>Currently reading</span><input id="f-reading" type="text"></label>
+        <label class="field"><span>Currently interested in</span><input id="f-interest" type="text"></label>
+        <label class="field"><span>GitHub URL</span><input id="f-github" type="text"></label>
+        <label class="field"><span>Instagram URL</span><input id="f-instagram" type="text"></label>
+      </div>
 
-    <div class="save-bar">
-      <button id="save-btn" class="btn-primary">Save changes</button>
-      <span id="save-status" class="status" role="status"></span>
+      <div class="editor-header" style="margin-top:32px;">
+        <h2>Timeline entries</h2>
+        <button id="add-entry-btn" class="btn-ghost">+ add entry</button>
+      </div>
+      <p class="hint" style="margin-bottom:16px;">
+        Entries reorder themselves by date automatically — the earliest date is at the top,
+        and anything without a date yet sits above all of them until you give it one.
+      </p>
+      <div id="entries-list"></div>
+
+      <div class="save-bar">
+        <button id="save-btn" class="btn-primary">Save changes</button>
+        <span id="save-status" class="status" role="status"></span>
+      </div>
+    </div>
+
+    <div id="tab-blog" hidden>
+      <div class="editor-header">
+        <h2 style="margin-top:0;">Blog posts</h2>
+        <button id="add-post-btn" class="btn-ghost">+ add post</button>
+      </div>
+      <p class="hint" style="margin-bottom:16px;">
+        New posts get the next id automatically (previous highest + 1). The date defaults to today —
+        edit it if you're backdating a post. Selecting an image queues it for upload; it's actually
+        committed to the repo when you click "Save changes" below.
+      </p>
+      <div id="posts-list"></div>
+
+      <div class="save-bar">
+        <button id="save-posts-btn" class="btn-primary">Save changes</button>
+        <span id="save-posts-status" class="status" role="status"></span>
+      </div>
     </div>
   </section>
 
@@ -96,6 +123,26 @@
     </div>
     <label class="field"><span>Card summary <span class="muted">(one line, shown on the timeline card)</span></span><input class="e-summary" type="text"></label>
     <label class="field"><span>Full description <span class="muted">(shown in the dialog)</span></span><textarea class="e-description" rows="3"></textarea></label>
+  </div>
+</template>
+
+<template id="post-template">
+  <div class="post-form entry-form">
+    <div class="entry-form-head">
+      <span class="post-id-badge">#<span class="e-id-display"></span></span>
+      <input class="e-post-title" type="text" placeholder="Title">
+      <button class="btn-ghost remove-post" type="button">remove</button>
+    </div>
+    <div class="entry-form-grid">
+      <label class="field"><span>Date</span><input class="e-post-date" type="date"></label>
+      <label class="field">
+        <span>Image</span>
+        <input class="e-post-image-file" type="file" accept="image/*">
+        <img class="image-preview e-post-image-preview" hidden alt="">
+      </label>
+    </div>
+    <label class="field"><span>Card description <span class="muted">(one line, shown on the blog card)</span></span><input class="e-post-description" type="text"></label>
+    <label class="field"><span>Full content <span class="muted">(HTML, shown in the post dialog)</span></span><textarea class="e-post-content" rows="6"></textarea></label>
   </div>
 </template>
 

@@ -1,91 +1,64 @@
-# Alice Gillbanks — portfolio site
+# Alice Gillbanks — Portfolio Site
 
-A static site for GitHub Pages: header with name/socials, a filterable career + project
-timeline, and a click-to-expand dialog per entry. All content lives in `data.json`.
+This is the source code for my personal portfolio website, hosted on GitHub Pages.
+
+The website contains a profile section and an interactive timeline showing my career, projects and other work. Timeline entries can be filtered and clicked to show more information.
+
+Most of the content is stored in `data.json`, making it easy to update without changing the website itself.
 
 ## Structure
 
-```
-index.html      the site
-admin.html       content editor (see "Editing" below)
-data.json        all editable content — profile + timeline entries
-css/style.css    main styles
-css/admin.css    editor-only styles
-js/app.js        renders the timeline, handles filtering + dialog
-js/admin.js      editor logic (talks to the GitHub API)
+```text
+index.html      Main website
+admin.html      Content editor
+data.json       Website content
+
+css/
+├── style.css   Main styles
+└── admin.css   Admin page styles
+
+js/
+├── app.js      Main website functionality
+└── admin.js    Content editor functionality
 ```
 
-## Running locally
+## Running Locally
 
-Because the page loads `data.json` with `fetch()`, opening `index.html` directly
-(`file://…`) won't work in most browsers — you need a local server:
+The site needs to be run through a local server because it loads `data.json`.
 
-```
-cd site
+```bash
 python3 -m http.server 8000
 ```
 
-then visit `http://localhost:8000`.
+Then open `http://localhost:8000`.
 
-## Deploying
+## Deployment
 
-Push this folder to a GitHub repo and enable Pages (Settings → Pages → deploy from
-branch). If it's a project site rather than a `username.github.io` repo, no path
-changes are needed — everything here uses relative links.
+The site is designed to be hosted using GitHub Pages.
 
-## Editing content day-to-day
+Upload the files to a GitHub repository and enable Pages through **Settings → Pages**.
 
-**The simplest and most secure option is to just edit `data.json` directly** — either
-in GitHub's web editor or locally and `git push`. No login required, full git history
-of every change, zero attack surface. For a personal portfolio this is genuinely the
-best trade-off, and it's worth using this as your default even with the in-browser
-editor below available.
+## Editing Content
 
-## About the "sign in and edit" panel (`admin.html`)
+The main website content is stored in `data.json`. This includes the profile information and all timeline entries.
 
-You asked for a sign-in that lets you add/edit/remove content, and whether that's even
-possible on GitHub Pages. Short answer: **there's no real backend, so there's no real
-login** — no server to check a password against, no session cookies, no database. But
-it's not *impossible* to get something that behaves like one. Two honest options:
+The file can be edited directly on GitHub or locally and then pushed to the repository.
 
-### Option A — what's built here: a repo-scoped access token
+There is also an editor at `admin.html` which allows the content to be changed through a form. It uses a GitHub fine-grained personal access token to save changes directly to the repository.
 
-`admin.html` asks for a **GitHub fine-grained personal access token** instead of a
-username/password. When you "sign in," the page uses that token to call GitHub's API
-directly from your browser: it reads `data.json`, lets you edit it in a form, and
-commits the change straight back to the repo.
+The token only needs **Contents: Read and write** access to the repository and is stored in `sessionStorage` while the editor is being used.
 
-- The token is held in `sessionStorage` only (never written to disk, never sent
-  anywhere except `api.github.com`) and disappears when you close the tab.
-- **Create a token scoped to just this repo**, not your whole account: GitHub →
-  Settings → Developer settings → Personal access tokens → **Fine-grained tokens** →
-  generate one, set "Repository access" to only this repository, and under
-  Permissions grant **Contents: Read and write** (nothing else needed). Give it an
-  expiry and regenerate it periodically.
-- This is reasonably safe for personal use but isn't a "real" secure login: anyone
-  with your token has write access to the repo for as long as it's valid, and if you
-  ever paste it somewhere public (or use this on a shared computer and don't sign
-  out), it's compromised. Treat it like a password you're handing to a script.
+## `data.json`
 
-### Option B — a more polished login: Decap CMS
-
-If you want an actual "log in with GitHub" button, an admin UI with proper auth, and
-image uploads, look at [Decap CMS](https://decapcms.org/) (formerly Netlify CMS) —
-it's built exactly for this: a git-backed CMS that sits on top of a static site and
-authenticates via GitHub OAuth. It needs one small piece of infrastructure outside
-GitHub Pages itself (a tiny OAuth-handshake endpoint — Decap's docs list a few free
-ways to host this, e.g. a Cloudflare Worker), but it's the "correct" version of what
-`admin.html` approximates. Worth migrating to if you outgrow the token-based editor.
-
-## Content schema (`data.json`)
+The file is structured as follows:
 
 ```jsonc
 {
   "profile": {
     "name": "…",
     "subheading": "…",
-    "reading": "…",       // "Currently reading:"
-    "interest": "…",      // "Currently interested in:"
+    "reading": "…",
+    "interest": "…",
     "github": "https://github.com/…",
     "instagram": "https://instagram.com/…"
   },
@@ -93,17 +66,16 @@ ways to host this, e.g. a Cloudflare Worker), but it's the "correct" version of 
     {
       "id": "unique-slug",
       "type": "career" | "project",
-      "date": "2026-07",           // YYYY-MM, used for sorting
-      "dateLabel": "Summer 2026",  // optional display override
+      "date": "2026-07",
+      "dateLabel": "Summer 2026",
       "title": "…",
       "summary": "one line for the card",
       "description": "longer text for the dialog",
       "tags": ["Swift", "SwiftUI"],
-      "link": ""                   // optional, shown as "View more →" in the dialog
+      "link": ""
     }
   ]
 }
 ```
 
-Entries are sorted by `date` automatically and placed on the timeline in order —
-you don't need to keep the array itself sorted.
+Timeline entries are automatically sorted by `date`, so they do not need to be entered in order.
