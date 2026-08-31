@@ -4,6 +4,7 @@
   const grid = document.getElementById("blog-grid");
   const dialog = document.getElementById("entry-dialog");
   const dialogClose = document.getElementById("dialog-close");
+  const dialogImage = document.getElementById("dialog-image");
 
   function formatDate(dateStr) {
     const d = new Date(dateStr + "T00:00:00");
@@ -48,6 +49,15 @@
   }
 
   function openPost(post) {
+    if (post.image) {
+      dialogImage.src = post.image;
+      dialogImage.alt = post.title || "";
+      dialogImage.hidden = false;
+    } else {
+      dialogImage.hidden = true;
+      dialogImage.removeAttribute("src");
+    }
+
     document.getElementById("dialog-title").textContent = post.title || "";
     document.getElementById("dialog-date").textContent = formatDate(post.date);
     // Post content is authored HTML from the admin panel (not user input), so

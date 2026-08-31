@@ -91,6 +91,13 @@
   border-bottom-color: var(--accent-project, #3b6ea5);
 }
 
+.dialog-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  display: block;
+}
+
 /* --- Admin: post image preview --- */
 .image-preview {
   max-width: 160px;
