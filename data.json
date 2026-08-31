@@ -9,6 +9,17 @@
   },
   "timeline": [
     {
+      "id": "entry-80475we",
+      "type": "project",
+      "title": "My Portfolio",
+      "date": "",
+      "dateLabel": "Late Summer 2026",
+      "link": "",
+      "tags": [],
+      "summary": "Created my Portfolio & Blog Website",
+      "description": "Created this portfolio & blog website. Earliest version created with a lot of help from Claude as at the time of writing I'm leaving for St Andrews in 5 days.\n\nChanges to be made:\n- Darkmode\n- WYSIWYG Editor\n- New blog entries at the top\n- Default blog image\n- 3 event type options in the timeline\n- CV/Skills page\n- Contact Page / Section"
+    },
+    {
       "id": "graphing-animator",
       "type": "project",
       "title": "Graph Transformations Animator",
