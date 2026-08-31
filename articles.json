@@ -152,5 +152,13 @@
     "description": "Not dead just busy, Too many projects none of them done",
     "image": "images/blogImage19.jpeg",
     "content": "<p>I have not done too many of these posts recently (as in basically none) partly because I'm journaling and a few of those will make it here when I update the website and also because too many things are going on - none of which are complete enough to show off x</p><br><p>My NEA is actually in somewhat of the final stages of development now,  testing and then reflecting on the code so thats a huge weight off my shoulders x</p><br><p>My app for questions is coming along, I have most of the code down and most of the questions made apart from the laborious task of checking them against the specification. My idea is to get an early version up on the app store and hopefully make enough money from it or other things (making a website for someone right now also) to afford a mac with XCode and then sky's the limit (or my ability) </p><br><p>Something funny that I only just noticed this morning is that the password to add posts to this blog is visible in the source code of the website x Nobody checks this thing so its not much of an issue but definitely something to raise when I update this place (when I get round to it that is)</p><br><p>Just the small tasks left now like getting A*s in the easy peasy A Levels then university baby</p>"
+  },
+  {
+    "Id": 20,
+    "title": "website still bork another post  (RAM 7)",
+    "date": "2026-08-31",
+    "description": "hey i think this one’s RAM 7",
+    "image": "",
+    "content": "<p>Website still broken or at least I think it is - haven’t had time to check recently. </p><br><p>I had an ingenious idea this morning. I took the code I produced for the iOS questions app, gave it all to GPT, told it to remove everything that wasn’t vanilla js html css and bam vibe coded a website. </p><br><p>Took 30 minutes to create then 5x that to bug fix but what do I care.</p><br><p>Over the next few days I’ll be adding bio questions to it as well as / instead of the CS ones as the whole reason for me doing this was there actually isn’t a convenient place for me to get bio questions online.</p><br><p>gotta fix this website (christmas?) along with a conversion to static again maybe preparing to be a broke uni girl</p>"
   }
 ]
